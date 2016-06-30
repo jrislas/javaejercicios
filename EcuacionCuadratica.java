@@ -12,7 +12,11 @@ public class EcuacionCuadratica {
 		b=Scanf.leerEntero();
 		System.out.print("Introduce el valor de c-> ");
 		c=Scanf.leerEntero();
+		d=((b*b)-(4*a*c));
 		
+
+
+
 		System.out.print("Programa realizdo por jrislas@gmail.com");	
 
 	

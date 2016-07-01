@@ -13,8 +13,17 @@ public class EcuacionCuadratica {
 		System.out.print("Introduce el valor de c-> ");
 		c=Scanf.leerEntero();
 		d=((b*b)-(4*a*c));
-		
+		if(d<0){
+		      System.out.print("La ecuacion no tiene Solucion Real");	
+        }else{
+        
+              raiz=Math.sqrt(d);
+              x1=(-b+raiz)/(2*a);
+              x2=(-b-raiz)/(2*a);
 
+             System.out.println("El valor de x1: "+x1); 
+             System.out.println("El valor de x2: "+x2);
+        } 
 
 
 		System.out.print("Programa realizdo por jrislas@gmail.com");	
